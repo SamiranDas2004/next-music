@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className} >
-       <div className="   text-ellipsis relative w-full flex justify-center items-center">
+       <div className="   relative w-full flex justify-center items-center">
         <Navbar/>
        </div>
         {children}</body>
