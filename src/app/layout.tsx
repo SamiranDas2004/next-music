@@ -12,13 +12,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
       <body className={inter.className} >
-       <div className=" relative w-full flex justify-center items-center">
+       <div className="   text-ellipsis relative w-full flex justify-center items-center">
         <Navbar/>
        </div>
         {children}</body>
