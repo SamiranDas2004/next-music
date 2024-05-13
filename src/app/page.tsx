@@ -4,6 +4,8 @@ import FeaturedCourses from "../components/FeaturedCourses";
 import Herosection from "../components/Herosection";
 import Movingcard from "@/components/Movingcard";
 import Upcomeingclasses from "@/components/Upcomeingclasses";
+import Instructor from "@/components/Instructor";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -14,6 +16,8 @@ export default function Home() {
    <Whyus/>
    <Movingcard/>
 <Upcomeingclasses/>
+<Instructor/>
+<Footer/>
    </div>
 
   );
